@@ -1,0 +1,27 @@
+{
+    "name": "com.cortexpowered.apps.cats",
+    "version": "1.0.0",
+    "displayName": "Catz!",
+    "description": "Show cat images using a Silo dataset.",
+    "author": "Cortex",
+    "email": "support@cortexpowered.com",
+    "homepage": "http://www.cortexpowered.com",
+    "type": "application",
+    "assets": {
+        "icon128": "",
+        "icon256": "./app_assets/icon.png",
+        "icon512": "",
+        "screenshot1": "./app_assets/catz1.jpeg",
+        "screenshot2": "./app_assets/catz2.jpeg",
+        "screenshot3": "",
+        "screenshot4": "",
+        "screenshot5": ""
+    },
+    "parameters": [
+        {
+            "name": "cats.dataset.id",
+            "default": "com.cortexpowered.datasets.cat-images",
+            "description": "A Silo dataset id to retrieve image urls and durations. The dataset should have two columns named 'url' and 'duration'."
+        }
+    ]
+}

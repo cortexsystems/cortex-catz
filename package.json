@@ -1,0 +1,25 @@
+{
+  "name": "com.cortexpowered.apps.cats",
+  "version": "1.0.3",
+  "license": "BSD-3-Clause",
+  "description": "Show cat images using a Silo dataset.",
+  "main": "src/index.js",
+  "scripts": {},
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coffee-script": "^1.10.0",
+    "coffeeify": "^1.1.0",
+    "coffeelint": "^1.11.1",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-less": "^3.0.3",
+    "gulp-util": "^3.0.1",
+    "gulp-zip": "^3.0.2"
+  },
+  "dependencies": {
+    "promise": "^7.0.4"
+  },
+  "author": "Hamza Kaya <hamza@cortexpowered.com> (http://www.cortexpowered.com/)"
+}
